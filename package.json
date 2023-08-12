@@ -1,0 +1,21 @@
+{
+  "name": "com.iron-mountain.ui-screen-shake",
+  "version": "1.0.0",
+  "displayName": "UI Screen Shake",
+  "description": "Scripts for shaking ui elements with Rect-Transforms.",
+  "unity": "2019.1",
+  "keywords": [
+    "tools"
+  ],
+  "author": "Chris Monteferrante <ludachrismonte@gmail.com>",
+  "type": "tool",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iron-Mountain-Software/ui-screen-shake.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Iron-Mountain-Software/ui-screen-shake/issues"
+  },
+  "homepage": "https://github.com/Iron-Mountain-Software/ui-screen-shake#readme"
+}

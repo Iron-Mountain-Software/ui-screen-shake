@@ -1,0 +1,14 @@
+{
+    "name": "com.iron-mountain.ui-screen-shake",
+    "rootNamespace": "IronMountain.UIScreenShake",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,18 @@
+{
+    "name": "com.iron-mountain.ui-screen-shake.Editor",
+    "rootNamespace": "IronMountain.UIScreenShake",
+    "references": [
+        "GUID:aae5cc158d06b45c19437b405d1b428d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
