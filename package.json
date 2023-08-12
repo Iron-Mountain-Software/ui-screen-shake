@@ -1,6 +1,6 @@
 {
   "name": "com.iron-mountain.ui-screen-shake",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "UI Screen Shake",
   "description": "Scripts for shaking ui elements with Rect-Transforms.",
   "unity": "2019.1",
@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/Iron-Mountain-Software/ui-screen-shake/issues"
   },
-  "homepage": "https://github.com/Iron-Mountain-Software/ui-screen-shake#readme"
+  "homepage": "https://github.com/Iron-Mountain-Software/ui-screen-shake#readme",
+  "samples": [
+    {
+      "displayName": "Example Scene",
+      "description": "Examples of basic functionality",
+      "path": "Samples~/Example Scene"
+    }
+  ]
 }
