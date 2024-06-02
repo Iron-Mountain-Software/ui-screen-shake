@@ -1,28 +1,57 @@
 {
   "name": "com.iron-mountain.ui-screen-shake",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "UI Screen Shake",
-  "description": "Scripts for shaking ui elements with Rect-Transforms.",
-  "unity": "2019.1",
-  "keywords": [
-    "tools"
-  ],
   "author": "Chris Monteferrante <ludachrismonte@gmail.com>",
+  "unity": "2019.1",
   "type": "tool",
+  "license": "MIT",
+  "homepage": "https://github.com/Iron-Mountain-Software/ui-screen-shake#readme",
+  "bugs": {
+    "type": "git",
+    "url": "https://github.com/Iron-Mountain-Software/ui-screen-shake/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Iron-Mountain-Software/ui-screen-shake.git"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Iron-Mountain-Software/ui-screen-shake/issues"
-  },
-  "homepage": "https://github.com/Iron-Mountain-Software/ui-screen-shake#readme",
-  "samples": [
+  "description": "Scripts that make it easy to shake UI elements, mainly for camera-shake style juice effects. \n\nEASY SET UP!\n\nI make lots of AR games, and camera-shake effects are sometimes awkward to implement because usually the player controls where the camera is in the scene, not the developer. One approach I've taken for camera-shake situations is to shake the UI instead of the camera. ",
+  "useCases": [
+    "Quickly implement camera-shake style effects in the UI. "
+  ],
+  "instructions": [
     {
-      "displayName": "Example Scene",
-      "description": "Examples of basic functionality",
-      "path": "Samples~/Example Scene"
+      "text": "Place a \"UI Screen Shake\" component on the ui element that you want to shake.",
+      "details": []
+    },
+    {
+      "text": "There are 2 ways to shake this component:",
+      "details": [
+        "Call the Shake(float percentMaximum, float seconds) method on the UI Screen Shake component to shake just that component.",
+        "Call UIScreenShake.GlobalShake(float percentMaximum, float seconds) to shake all UI Screen Shake components at once."
+      ]
+    },
+    {
+      "text": "The UI Screen Shake Button can be used to cheaply test or implement this feature. Simply drag it onto a UI Button and configure it to behave as desired.",
+      "details": []
     }
-  ]
+  ],
+  "keywords": [
+    "tools"
+  ],
+  "sources": [
+    {
+      "type": "git",
+      "url": "https://github.com/Iron-Mountain-Software/ui-screen-shake"
+    },
+    {
+      "type": "itch.io",
+      "url": "https://iron-mountain.itch.io/ui-screen-shake"
+    },
+    {
+      "type": "npm",
+      "url": "https://www.npmjs.com/package/com.iron-mountain.ui-screen-shake"
+    }
+  ],
+  "dependencies": {}
 }
